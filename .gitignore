@@ -1,0 +1,59 @@
+###--- File .gitignore for Attis Project ---###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+### Django ###
+# Django stuff:
+*.log
+local_settings.py
+*.pot
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# IDE and code editor
+.vscode/
+
+#dBase
+*.sqlite3
+
+### Another ###
+log/**
+.git*.*
+
+# Create useful .gitignore files for your project https://www.gitignore.io/
